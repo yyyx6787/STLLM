@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon May 16 00:11:44 2022
 
-@author: User
-"""
 import pickle
 import pandas as pd
 from itertools import chain
