@@ -1,10 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun May 15 16:45:43 2022
 
-@author: User
-"""
-#this file for traffic
 import numpy as np
 import pandas as pd
 from shapely.geometry import Point, LineString
