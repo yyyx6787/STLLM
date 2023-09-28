@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon May 16 10:24:20 2022
 
-@author: User
-"""
 import torch
 from torch_geometric.data import Data
 from itertools import product
