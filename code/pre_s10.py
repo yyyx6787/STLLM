@@ -1,11 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu May 19 19:34:09 2022
-
-@author: User
-"""
-#this file is to get the com vector from the hypergraph
-
 
 import pandas as pd
 import pickle
