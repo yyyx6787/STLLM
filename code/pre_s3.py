@@ -2,7 +2,7 @@
 import numpy as np
 import pandas as pd
 from shapely.geometry import Point, LineString
-from shapely.geometry import Polygon,MultiPoint  #多边形
+from shapely.geometry import Polygon,MultiPoint  
 import matplotlib.pyplot as plt
 import json
 from urllib.request import urlopen, quote
@@ -18,12 +18,12 @@ import numpy as np
 import matplotlib.pyplot as plt
 from math import radians, cos, sin, asin, sqrt
 
-def haversine(lon1, lat1, lon2, lat2): # 经度1，纬度1，经度2，纬度2 （十进制度数）
+def haversine(lon1, lat1, lon2, lat2): 
     """
     Calculate the great circle distance between two points 
     on the earth (specified in decimal degrees)
     """
-    # 将十进制度数转化为弧度
+  
     lon1, lat1, lon2, lat2 = map(radians, [lon1, lat1, lon2, lat2])
 
     # haversine公式
@@ -31,7 +31,7 @@ def haversine(lon1, lat1, lon2, lat2): # 经度1，纬度1，经度2，纬度2 �
     dlat = lat2 - lat1 
     a = sin(dlat/2)**2 + cos(lat1) * cos(lat2) * sin(dlon/2)**2
     c = 2 * asin(sqrt(a)) 
-    r = 6371 # 地球平均半径，单位为公里
+    r = 6371 
     return c * r * 1000
 
 def load_data(file):
@@ -89,7 +89,7 @@ for item in region_traffic[:]: #['VendorID', 'lpep_pickup_datetime', 'Lpep_dropo
     if len(tmp_idx)==2:
         # print("tmp_idx:", tmp_idx)
         # print("item:", item)
-        sp_tm.append((tmp_idx[1], tmp_idx[0], item[-1])) #起点/终点/日期
+        sp_tm.append((tmp_idx[1], tmp_idx[0], item[-1])) 
 result = pd.value_counts(sp_tm)
 print("result:", result)
 # println()
