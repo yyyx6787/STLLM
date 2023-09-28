@@ -1,15 +1,10 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue May 24 22:55:59 2022
 
-@author: User
-"""
 import pickle
 import pandas as pd
 import numpy as np
 import copy
 from shapely.geometry import Point, LineString
-from shapely.geometry import Polygon,MultiPoint  #多边形
+from shapely.geometry import Polygon,MultiPoint  
 import torch
 import networkx as nx
 import matplotlib.pyplot as pl
