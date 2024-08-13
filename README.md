@@ -1,3 +1,6 @@
+# Distributions of CHI and NYC #
+!(./IMG/dis.png)
+
 # Spatial-Temporal Learning Augmented by Large Language Models #
 This is the implementation of SPATIO-TEMPORAL GRAPH LEARNING WITH LARGE LANGUAGE MODEL in the following paper:
 
