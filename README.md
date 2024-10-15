@@ -1,7 +1,7 @@
 
 
-# LLM is A Good Spatio-Temporal Embedder #
-This is the implementation of LLM is A Good Spatio-Temporal Embedder in the following paper:
+# Spatial-Temporal Learning Augmented by Large Language Models #
+This is the implementation of SPATIO-TEMPORAL GRAPH LEARNING WITH LARGE LANGUAGE MODEL in the following paper:
 
 ## Requirements ##
 Pytorch = 1.7.0 and Tensorflow = 1.15.3 (crime prediction task (ST-SHN))
